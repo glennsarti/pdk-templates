@@ -403,7 +403,7 @@ Rakefile:
     # no rubocops enabled, caveat emptor!
     off:
       configs: *default_configs
-      enabled_cops: {}
+      enabled_cops: *cleanup_cops
 
     # a sanitized list of cops that'll cleanup a code base without much effort
     # they all support autocorrect, and should be fairly uncontroversial across
